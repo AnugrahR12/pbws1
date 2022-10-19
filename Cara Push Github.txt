@@ -1,0 +1,3 @@
+1. git add .
+2. git commit -m 'pesan beba'
+3. git push -u origin master (kalau gk bisa, -u diganti -f)
