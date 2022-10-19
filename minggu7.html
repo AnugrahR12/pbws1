@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <meta name="author" content="Anugrah R">
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        @media screen and (min-width: 907px) {
+            /* For Fullscreen Page */
+            footer {
+                position: absolute;
+                bottom: 0;
+                width: 99%;
+            }
+        }
+
+        @media screen and (max-width: 1464px) {
+            /* For Half Windowed */
+            footer {
+                position: absolute;
+                bottom: 0;
+                width: 99%;
+            }
+        }
+    </style>
+    <title> nanti | bakal | dilanjutin</title>
+</head>
+<body>
+    <div>
+        <nav class="navTop x-center">
+            <a href="index.html" class="nav mosk"><b>blum</b></a>
+            <a href="/front-end/figure/" class="nav mosk"><b>selesai</b></a>
+            <a href="/front-end/documentary/" class="nav mosk"><b>santai</b></a>
+            <a href="/front-end/about.html" class="nav mosk"><b>jgn</b></a>
+            <a href="/front-end/contact.html" class="nav mosk"><b>keburu</b></a>
+        </nav>
+    </div>
+    <div class="flex column">
+        <header class="title mosk x-center">
+            <h1 id="h1"><b>apaantuh?</b><h1>
+            <h2 id="h2"><b>aaksnajubadhckjna</b><h2>
+        </header>
+        <form action="/back-end/data.php" method="post">
+            <table class="x-center" id="feedbackSection">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="nama">Name</label>
+                        </td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" name="nama" value="" placeholder="Write your name..." required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>:</td>
+                        <td>
+                            <input type="email" name="nama" value="" placeholder="Write your email..." required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="feedback">Comment</label>
+                        </td>
+                        <td>:</td>
+                        <td>
+                            <textarea name="feedback" id="feedback" cols="28" rows="10" placeholder="Write your feedback here..."></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Submit" id="submitFeedback" class="x-center">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    <div>
+        <footer class="x-center mosk">
+            &copy; gaada kopirait | Anugrah R
+        </footer>
+    </div>
+</body>
+</html>
