@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello Javascript</title>
+		<script>
+			function hitung(){
+				// tulis syntax javascript disini...
+				var form = document.formHitung;
+				var x = eval (form.bil1.value);
+				var y = eval (form.bil2.value);
+				var z =x+y;
+				form.hasil.value = z;
+				
+				alert(x);
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Hello Javascript</h1>
+		<form name="formHitung" action="#">
+			bil 1 <input type="number" name="bil1"><br>
+			opr
+			<select name="opr">
+				<option>+</option>
+				<option>-</option>
+				<option>*</option>
+				<option>/</option>
+			</select><br>
+			bil 2 <input type="number" name="bil2">
+			<input type="button" value="=" onclick="hitung()">
+			<input type="number" name="hasil" disabled>
+		</form>
+	</body>
+</html>
